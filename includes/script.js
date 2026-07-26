@@ -43,7 +43,7 @@ function stopInterval(){
         clearInterval(timerId);
         timerId = null;
     }
-    label.textContent = "Auto Jailbreak";
+    label.textContent = "تفعيل تلقائي";
 }
 
 function jailbreakCountdown() {   
@@ -59,7 +59,7 @@ function jailbreakCountdown() {
             jeilbrekBtn.disabled = true; 
             clearInterval(timerId);
             timerId = null;
-            label.textContent = 'Executing';
+            label.textContent = 'بدأ';
             doJb();
         }
     }, 1000);
